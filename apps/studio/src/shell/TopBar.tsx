@@ -82,7 +82,7 @@ export function TopBar({ children }: { children: ReactNode }) {
     <div className="flex flex-col h-screen">
       <header className="flex items-center h-11 px-2 gap-1 sm:px-3 sm:gap-2 shrink-0 bg-[var(--color-panel-solid)] border-b border-[var(--gray-a5)] select-none">
         <div className="flex items-center gap-1.5 pr-1">
-          <img src="/icon.png" className="size-5 min-h-5 min-w-5" alt="propel" />
+          <img src="/propel/icon.png" className="size-5 min-h-5 min-w-5" alt="propel" />
           <span className="text-sm font-semibold text-[var(--gray-12)] hidden sm:inline">propel</span>
           <UpdaterChip />
         </div>

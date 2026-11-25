@@ -7,7 +7,7 @@ function AboutPanel() {
   return (
     <Card className="h-full w-full">
       <div className="flex flex-col items-center text-center gap-4 py-6 px-4 max-w-md mx-auto">
-        <img src="/icon.png" alt="propel" className="size-20 rounded-full" />
+        <img src="/propel/icon.png" alt="propel" className="size-20 rounded-full" />
         <Heading size="6">propel</Heading>
         <Text size="2" color="gray">
           A process-mining workbench for event logs and OCEL 2.0: Rust backend, React frontend, deployable to

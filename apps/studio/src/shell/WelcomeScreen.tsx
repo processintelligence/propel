@@ -124,7 +124,7 @@ export function WelcomeScreen({
           <Heading size={{ initial: "6", sm: "8" }} className="!mb-2">
             Welcome to propel
             <img
-              src="/icon.png"
+              src="/propel/icon.png"
               className="size-8 sm:size-12 inline ml-2 mb-1 align-middle"
               alt="propel logo"
             />
