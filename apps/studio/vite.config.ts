@@ -53,6 +53,7 @@ export default defineConfig(({ mode }) => {
   // tauri/webserver use the native/HTTP backend; stub the wasm engine out of those bundles.
   const stubWasm = mode === "tauri" || mode === "webserver";
   return {
+    base: process.env.PROPEL_BASE_PATH ?? "/",
     define: {
       __APP_VERSION__: JSON.stringify(appVersion),
     },
